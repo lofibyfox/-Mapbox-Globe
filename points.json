@@ -36,6 +36,18 @@
         "type": "Point",
         "coordinates": [26.6667,-4.2500]
      }
-    } 
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mariino",
+        "title": "mariino",
+        "image": "https://i.postimg.cc/g01xkGhN/0003-mariino.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.3245, 55.5498]
+     }
+    }
   ]
 }
