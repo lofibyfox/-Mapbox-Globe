@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tivat",
+        "title": "Tivat",
+        "image": "https://i.postimg.cc/8PSNKsQB/0001-tivat.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.6966, 42.4311]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lipetsk",
+        "title": "Lipetsk",
+        "image": "https://i.postimg.cc/WbS2Kj7D/0002-lipetsk.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.5942, 52.6100]
+      }
+    }
+  ]
+}
