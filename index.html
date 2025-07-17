@@ -100,9 +100,9 @@
 			  curve: 1.5,
 			  easing: t => t   
 			  });
-		// 👇 Ждём 1 секунду, чтобы карта долетела
-		setTimeout(() => {	 
-               new mapboxgl.Popup()
+			  
+
+              new mapboxgl.Popup()
                 .setLngLat([lng, lat])
                 .setHTML(`
                   <div style="max-width: 200px">
@@ -116,7 +116,7 @@
                   </div>
                 `)
                 .addTo(map);
-            }, 1000); // ⏱️ задержка в 1 секунду
+            }
           }
         });
     });
