@@ -93,7 +93,14 @@
             const match = geojson.features.find(f => f.properties.id === targetId);
             if (match) {
               const [lng, lat] = match.geometry.coordinates;
-              map.flyTo({ center: [lng, lat], zoom: 5 });
+              map.flyTo({
+			  center: [lng, lat],
+			  zoom: 5,
+			  speed: 0.5,
+			  curve: 1.5,
+			  easing: t => t   
+			  });
+			  
 
               new mapboxgl.Popup()
                 .setLngLat([lng, lat])
