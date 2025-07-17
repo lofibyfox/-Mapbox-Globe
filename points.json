@@ -24,6 +24,18 @@
         "type": "Point",
         "coordinates": [39.5942, 52.6100]
       }
-    }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "monkey",
+        "title": "monkey",
+        "image": "https://i.postimg.cc/CMNrTbFm/image.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.9232977730953595, 25.930909829642786]
+     }
+    } 
   ]
 }
